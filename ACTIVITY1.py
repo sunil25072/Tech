@@ -1,0 +1,11 @@
+fruits = ("apple", "banana", "cherry", "mango", "banana")
+print(len(fruits))
+print(fruits[1])
+y=list(fruits)
+y[2]="grapes"
+print(fruits)
+thistuple = ("apple", "banana", "cherry", "mango", "banana")
+y = list(thistuple)
+y.append("orange")
+thistuple = tuple(y)
+print(thistuple)
