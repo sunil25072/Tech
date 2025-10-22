@@ -11,5 +11,5 @@ art = tuple(art_list)
 print(art)
 middle_element = art[len(art)//2]
 print(middle_element)
-find = "square" in art
-print(find)
+for square in art:
+    print("yes")
