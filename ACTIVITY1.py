@@ -1,9 +1,9 @@
 fruits = ("apple", "banana", "cherry", "mango", "banana")
 print(len(fruits))
 print(fruits[1])
-y=list(fruits)
-y[2]="grapes"
-print(fruits)
+sunil=list(fruits)
+sunil[2]="grapes"
+print(sunil)
 thistuple = ("apple", "banana", "cherry", "mango", "banana")
 y = list(thistuple)
 y.append("orange")
