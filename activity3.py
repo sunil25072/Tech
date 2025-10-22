@@ -1,0 +1,5 @@
+marks = (78, 85, 69, 90, 85)
+print(max(marks))
+print(min(marks))
+print(marks.count(85))
+avg=sum(marks)//len(marks)
