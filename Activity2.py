@@ -9,7 +9,7 @@ art_list = list(art)
 art_list.append("Diamond")
 art = tuple(art_list)
 print(art)
-middle_element = art[len(art)//2]
-print(middle_element)
-for square in art:
-    print("yes")
+middle = art[len(art)//2]
+print(middle)
+find = "square" in art
+print(find)
